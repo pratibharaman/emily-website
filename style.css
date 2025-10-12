@@ -36,3 +36,14 @@
   height: 50px;
   background-color: #73243a;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.responsive {
+  width: 80%;
+  max-width: 389px;
+  height: auto;
+}
