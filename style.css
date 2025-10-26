@@ -23,6 +23,12 @@
   color: #364a1f;
   font-size: larger;
 }
+.degular-bold {
+  font-family: "degular-variable", sans-serif;
+  font-variation-settings: "ital" 0, "wght" 600, "opsz" 6;
+  color: #364a1f;
+  font-size: larger;
+}
 .gyst {
   font-family: "gyst-variable", sans-serif;
   font-variation-settings: "wght" 600;
