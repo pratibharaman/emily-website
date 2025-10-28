@@ -53,3 +53,40 @@
   max-width: 389px;
   height: auto;
 }
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #fefff6;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: rgb(120, 32, 32);
+  text-decoration: dotted;
+  font-size: 36px;
+  width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #fefff6;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #04aa6d;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: left;
+    display: contents;
+    width: 50%;
+    text-align: center; /* If you want the text to be left-aligned on small screens */
+  }
+}
