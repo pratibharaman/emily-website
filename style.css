@@ -90,3 +90,8 @@
     text-align: center; /* If you want the text to be left-aligned on small screens */
   }
 }
+.green,
+.hover-green:hover {
+  color: #749978 !important;
+  background-color: #fefff6 !important;
+}
